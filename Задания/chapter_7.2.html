@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <title>Продолжение форм</title>
 </head>
-
-<form action="http://www.primer.ru/zagruzka.php" method="post">
-      <p>Загрузите свою песню в формате MP3:</p>
-<input type="file" name="pesnya"><br />
-<input type="submit" value="Загрузить" />
-</form>
-<form action="http://www.primer.ru/podpiska.php">
-    <p>Подпишитесь на рассылку наших новостей:</p>
-    <input type="text" name="email" />
-    <input type="submit" name="podpisatsya" value="Подписаться" />
-</form>
-<hr />
-<form action="http://www.primer.ru/podpiska.php">
-    <p>Подпишитесь на рассылку наших новостей:</p>
-    <input type="text" name="email" />
-    <input type="image" src="images/subscribe.jpg" width="100" height="20"/>
-</form>
+<body>
+    <form action="http://www.primer.ru/zagruzka.php" method="post">
+        <p>Загрузите свою песню в формате MP3:</p>
+        <input type="file" name="pesnya"><br />
+        <input type="submit" value="Загрузить" />
+    </form>
+    <form action="http://www.primer.ru/podpiska.php">
+        <p>Подпишитесь на рассылку наших новостей:</p>
+        <input type="text" name="email" />
+        <input type="submit" name="podpisatsya" value="Подписаться" />
+    </form>
+    <hr />
+    <form action="http://www.primer.ru/podpiska.php">
+        <p>Подпишитесь на рассылку наших новостей:</p>
+        <input type="text" name="email" />
+        <input type="image" src="images/subscribe.jpg" width="100" height="20"/>
+    </form>
+    <form action="http://www.example.com/add.php">
+        <button>
+           <img src="images/add.gif" alt="Добавить" width="10" height="10" />Добавить</button>
+        <input type="hidden" name="zakladka" value="tekst_pesni" />
+    </form>
 </body>
 </html>

@@ -5,47 +5,48 @@
     <title>Структура формы</title>
 </head>
 <body>
-<form action="http://www.primer.ru/subscribe.php" method="get">
-    <p style="color: red;">Здесь будут отображены элементы формы.</p>
-</form>
-<form action="http://www.primer.ru/login.php">
-    <p>Имя пользователя:
-        <input type="text" name="username" size="15" maxlength="30">
-    </p>
-    <p>Пароль:
-        <input type="password" name="password" maxlength="30" size="15" /></p>
+    <form action="http://www.primer.ru/subscribe.php" method="get">
+        <p style="color: red;">Здесь будут отображены элементы формы.</p>
+    </form>
 
-</form>
-<form action="http://www.primer.ru/profile.php">
-    <p>Пожалуйста, выберите любимый жанр музыки:
-    <br />
-    <input type="radio" name="genre" value="rock" checked="checked" />Рок
-    <input type="radio" name="genre" value="pop" />Поп
-    <input type="radio" name="genre" value="techno"  />Электроника</p>
-    <p>Что вы думаете об этом выступлении</p>
-    <textarea name="comments" cols="20" rows="4">Введите свой комментарий...</textarea>
-    <p>Пожалуйста, выберите, где вы слушаете музыку:
-    <br />
-    <input type="checkbox" name="service" value="house" checked="checked" />Дома
-    <input type="checkbox" name="service" value="work" />На работе
-    <input type="checkbox" name="service" value="inroad" />В дороге
-    </p>
-    <p>На каком устройстве вы слушаете музыку чаще всего?</p>
-    <select name="ustroistva">
-        <option value="ipod">Ipod</option>
-        <option value="=radio">Радио</option>
-        <option value="computer" selected="selected">Компьютер</option>
-    </select>
-    <p>Играете ли вы на одном из инструментов, перечисленных ниже? (Вы можете выбрать сразу несколько вариантов ответа,
-        нажав и удерживая клавишу <b>Ctrl</b> (Windows) или <b>Cmd</b> OS X)).</p>
-    <select name="Instrymenti" size="2" multiple="multiple">
-        <option value="gitara" selected="selected">Гитара</option>
-        <option value="barabany">Барабаны</option>
-        <option value="klavishnye">Клавишные</option>
-        <option value="bas">Бас-гитара</option>
+    <form action="http://www.primer.ru/login.php">
+        <p>Имя пользователя:
+            <input type="text" name="username" size="15" maxlength="30">
+        </p>
+        <p>Пароль:
+            <input type="password" name="password" maxlength="30" size="15" /></p>
 
-    </select>
-</form>
+    </form>
 
+    <form action="http://www.primer.ru/profile.php">
+        <p>Пожалуйста, выберите любимый жанр музыки:
+            <br />
+            <input type="radio" name="genre" value="rock" checked="checked" />Рок
+            <input type="radio" name="genre" value="pop" />Поп
+            <input type="radio" name="genre" value="techno"  />Электроника
+        </p>
+        <p>Что вы думаете об этом выступлении</p>
+        <textarea name="comments" cols="20" rows="4">Введите свой комментарий...</textarea>
+        <p>Пожалуйста, выберите, где вы слушаете музыку:
+            <br />
+            <input type="checkbox" name="service" value="house" checked="checked" />Дома
+            <input type="checkbox" name="service" value="work" />На работе
+            <input type="checkbox" name="service" value="inroad" />В дороге
+        </p>
+        <p>На каком устройстве вы слушаете музыку чаще всего?</p>
+        <select name="ustroistva">
+            <option value="ipod">Ipod</option>
+            <option value="=radio">Радио</option>
+            <option value="computer" selected="selected">Компьютер</option>
+        </select>
+        <p>Играете ли вы на одном из инструментов, перечисленных ниже? (Вы можете выбрать сразу несколько вариантов ответа,
+            нажав и удерживая клавишу <b>Ctrl</b> (Windows) или <b>Cmd</b> OS X)).</p>
+        <select name="Instrymenti" size="2" multiple="multiple">
+            <option value="gitara" selected="selected">Гитара</option>
+            <option value="barabany">Барабаны</option>
+            <option value="klavishnye">Клавишные</option>
+            <option value="bas">Бас-гитара</option>
+        </select>
+    </form>
 </body>
 </html>
